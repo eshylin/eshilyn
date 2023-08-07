@@ -27,4 +27,39 @@
   </div>
     </header>
     </body>
+    <span class="cabeçalho-menu-hamburguer container__imagem"></span>
+</label>
+<ul class="lista-menu">
+<li class="lista-menu_titulo"> Categorias</li>
+<li class="lista-menu_item">
+    <a href="#" class="lista-menu_link"> Programação</a>
+</li>
+<li class="lista-menu_item">
+    <a href="#" class="lista-menu_link"> Front-End</a>
+</li>
+<li class="lista-menu_item">
+    <a href="#" class="lista-menu_link"> Infraestrutura</a>
+</li>
+<li class="lista-menu_item">
+    <a href="#" class="lista-menu_link"> Business</a>
+</li>
+<li class="lista-menu_item">
+    <a href="#" class="lista-menu_link"> Design & UX</a>
+</li>
+</ul>
+</section>
+    </header>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+        const swisper =new swisper('.swiper', {
+            speed: 400,
+            spaceBetweem: 10,
+            slidesPerView: 3,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+         });
+    </script>
+</body>
 </html>
